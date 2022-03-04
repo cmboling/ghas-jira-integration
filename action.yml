@@ -49,11 +49,11 @@ runs:
         --gh-token "${{ inputs.github_token }}" \
         --gh-org "$GITHUB_REPOSITORY_OWNER" \
         --gh-repo "$REPOSITORY_NAME" \
-        --jira-url "${{ inputs.jira_url }}" \
-        --jira-user "${{ inputs.jira_user }}" \
-        --jira-token "${{ inputs.jira_token }}" \
-        --jira-project "${{ inputs.jira_project }}" \
-        --jira-labels "${{ inputs.jira_labels }}" \
-        --direction "${{ inputs.sync_direction }}" \
-        --issue-end-state "${{ inputs.issue_end_state }}" \
-        --issue-reopen-state "${{ inputs.issue_reopen_state }}"
+        --jira-url "$JIRA_URL" \
+        --jira-user "$JIRA_USER" \
+        --jira-token "$JIRA_TOKEN" \
+        --jira-project "$JIRA_PROJECT" \
+        --jira-labels "$JIRA_LABELS" \
+        --direction "$SYNC_DIRECTION" \
+        --issue-end-state "$ISSUE_END_STATE" \
+        --issue-reopen-state "$ISSUE_REOPEN_STATE"
