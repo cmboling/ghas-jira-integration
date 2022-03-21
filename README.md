@@ -1,4 +1,6 @@
 # Synchronize GitHub Code Scanning alerts to Jira issues
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcmboling%2Fghas-jira-integration.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcmboling%2Fghas-jira-integration?ref=badge_shield)
+
 
 [GitHub's REST API](https://docs.github.com/en/rest) and [webhooks](https://docs.github.com/en/developers/webhooks-and-events/about-webhooks) give customers the option of exporting alerts to any issue tracker, by allowing users to fetch the data via API endpoints and/or by receiving webhook POST requests to a hosted server.
 
@@ -198,3 +200,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 ## License
 
 [Apache V2](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fcmboling%2Fghas-jira-integration.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fcmboling%2Fghas-jira-integration?ref=badge_large)
